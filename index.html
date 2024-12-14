@@ -21,7 +21,7 @@
     </div>
 
     <div class="container">
-        <div class="container_left">
+        <div class="container_left framed-golden-2">
             <div class="score_box">
                 <span id="score_points">
                     win: 0 | lose: 0
@@ -32,7 +32,7 @@
                 <img id="card-image">
             </div>
             
-            <div class="card_details">
+            <div class="card_details frame">
                 <p id="card-name"></p>
                 <p id="card-type"></p>
             </div>
@@ -40,7 +40,24 @@
 
         <div class="container_right">
             <div class="card-box_container">
+                <div class="card-box framed" id="computer-cards">
 
+                </div>
+                <div class="card-versus">
+                    <div class="versus-top">
+                        <div class="card-infield">
+                            <img id="player-field-card" height="180px" width="125px">
+                        </div>
+
+                    </div>
+                    <div class="versus-bottom">
+                        <button id="next-duel" class="rpgui-button">ganhou</button>
+
+                    </div>
+                </div>
+                <div class="card-box framed" id="player-cards">
+
+                </div>
             </div>
         </div>
     </div>
